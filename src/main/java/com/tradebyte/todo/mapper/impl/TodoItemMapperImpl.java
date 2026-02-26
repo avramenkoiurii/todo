@@ -5,9 +5,11 @@ import com.tradebyte.todo.dto.TodoItemResponse;
 import com.tradebyte.todo.mapper.TodoItemMapper;
 import com.tradebyte.todo.model.TodoItem;
 import com.tradebyte.todo.model.TodoStatus;
+import org.springframework.stereotype.Component;
 
 import java.time.Instant;
 
+@Component
 public class TodoItemMapperImpl implements TodoItemMapper {
 
     @Override
